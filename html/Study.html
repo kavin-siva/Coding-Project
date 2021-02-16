@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Study - Kavin Sivasubramanian</title>
+  <link rel="icon" href="../img/favico.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style_for_study.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<style>
+  .card_text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
+</style>
+
+<body>
+  <header>
+    <nav id="main-nav-bar" class="navbar navbar-expand-lg navbar-light bg-dark" style="z-index: 31;">
+      <a class="navbar-brand " href="#" style="color: white;">Kavin Sivasubramanian</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link " href="Home.html" style="color: white;">Home. <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="Study.html" style="color: white;">Study. </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled " href="TakeTheTest.html" style="color: white;">Take the Test.
+            </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " href="Credits.html" style="color: white;">Credits.
+              </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="big-title translate" data-speed="0.1">
+      <h1 style="font-size: 5vw; font-weight: bold; -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;">Welcome To Study Section!!! 📚</h1>
+    </div>
+
+    <img src="../img/beach.jpg" class="sky translate" data-speed="0.5" alt="">
+  </header>
+  <section>
+    <div class="shadow"></div>
+    <h1 style="text-align: center; margin-top: 2vh;">
+      Multiple Choice Questions
+    </h1>
+    <div class="container">
+      <div id="cardContainerMCQ" class="cards">
+      </div>
+      <h1 style="text-align: center; margin-top: 2vh;">
+        True False Questions
+      </h1>
+      <div id="cardContainerTF" class="cards">
+      </div>
+      <h1 style="text-align: center; margin-top: 2vh;">
+        DropDown Questions
+      </h1>
+      <div id="cardContainerDrop" class="cards">
+      </div>
+      <h1 style="text-align: center; margin-top: 2vh;">
+        FILL Questions
+      </h1>
+      <div id="cardContainerFILL" class="cards">
+      </div>
+      
+    </div>
+  </section>
+
+  
+
+  <div>
+    <h1 style="text-align: center;">Ready?</h1>
+    <a href="TakeTheTest.html" style="text-decoration: none;">
+      <button style="text-align: center; margin: 0 auto; display:block; margin-bottom: 7vh; margin-top: 3vh;"
+        class="btn btn-dark">
+        Take The Test
+      </button>
+    </a>
+  </div>
+
+  <script src="../js/questions.js"></script>
+  <script src="../js/js_for_study.js"></script>
+</body>
+
+<style>
+  .card_text {
+    width: 220px;
+    margin-top: 5px;
+    margin-left: 0;
+    vertical-align: text-top;
+    text-align: center;
+  }
+</style>
+
+</html>
